@@ -1,0 +1,15 @@
+<!doctype html><html lang=en><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1"><title>Weight Lens | BTC and ETH</title>
+<style>*{box-sizing:border-box}body{font:16px/1.55 system-ui;color:#132923;background:#f6faf8;margin:0}
+main{max-width:790px;margin:auto;padding:8vh 18px}h1{font-size:2.7rem;margin:0}
+header{border-top:5px solid #167259;padding-top:20px}small{color:#495956}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}td,th{padding:12px 6px;text-align:right;border-bottom:1px solid #ccd9d4}
+th:first-child{text-align:left}thead{background:#133d32;color:white}a{color:#086246}
+@media(max-width:480px){td,th{font-size:13px;padding:8px 3px}}</style>
+<main><header><small>AUREN / PUBLIC API STUDY</small><h1>Weight Lens</h1>
+<p>Same two assets, different weights. Compare synthetic BTC/ETH portfolios on the same API, side by side.</p></header>
+<table><thead><tr><th>Risk metric</th><th>80/20</th><th>50/50</th><th>Change</th></tr></thead>
+<tbody><tr><th scope=row>Largest position</th><td>80.0%</td><td>50.0%</td><td>-30.0 pp</td></tr><tr><th scope=row>Effective assets</th><td>1.47</td><td>2.00</td><td>+0.53</td></tr><tr><th scope=row>Volatility</th><td>39.1%</td><td>45.0%</td><td>+5.8 pp</td></tr><tr><th scope=row>Max drawdown</th><td>-55.9%</td><td>-60.0%</td><td>-4.1 pp</td></tr><tr><th scope=row>AUREN score</th><td>85.00</td><td>85.00</td><td>+0.00</td></tr></tbody></table>
+<p>Change is the second result minus the first; pp means percentage points. A less negative drawdown is a smaller historical loss. More balanced weights alone do not guarantee lower volatility.</p>
+<p><a href="evidence.json">Inspect both requests and responses</a></p>
+<small>Snapshot: 2026-11-21T10:14:47.381487+00:00. Separate sequential calls, not an atomic market snapshot. Analytics only; no trades.</small></main></html>

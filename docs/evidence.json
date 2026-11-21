@@ -1,0 +1,115 @@
+{
+  "endpoint": "https://auren-api-8yrq.onrender.com/risk",
+  "calls": [
+    {
+      "request": {
+        "weights": {
+          "BTC-USD": 80,
+          "ETH-USD": 20
+        }
+      },
+      "received_utc": "2026-11-21T10:14:46.565208+00:00",
+      "response": {
+        "score": 85,
+        "level": "High",
+        "normalized_weights": {
+          "BTC-USD": 0.8,
+          "ETH-USD": 0.2
+        },
+        "reasons": [
+          "Largest holding is 80% (over 30%)",
+          "Behaves like only 1.5 assets",
+          "Volatility is 39% a year (over 30%)",
+          "Worst past fall was -56% (deeper than -30%)",
+          "100% sits in one sector"
+        ],
+        "concentration": {
+          "top_asset": "BTC-USD",
+          "top_weight": 0.8,
+          "top3_weight": 1.0,
+          "hhi": 0.68,
+          "effective_assets": 1.47
+        },
+        "volatility": 0.3914,
+        "max_drawdown": -0.5589,
+        "sector_exposure": {
+          "Crypto": 1.0
+        },
+        "correlated_pairs": [
+          [
+            "BTC-USD",
+            "ETH-USD",
+            0.85
+          ]
+        ],
+        "stress": {
+          "Big Tech falls 20%": 0.0,
+          "Chip selloff (semis fall 25%)": 0.0,
+          "NVDA falls 15%": 0.0,
+          "Crypto crash 40%": -0.4,
+          "Broad selloff": -0.3
+        },
+        "worst_historical_periods": {
+          "worst_day": -0.1431,
+          "worst_month": -0.3663
+        },
+        "disclaimer": "Analytics only, not investment advice."
+      }
+    },
+    {
+      "request": {
+        "weights": {
+          "BTC-USD": 50,
+          "ETH-USD": 50
+        }
+      },
+      "received_utc": "2026-11-21T10:14:47.381487+00:00",
+      "response": {
+        "score": 85,
+        "level": "High",
+        "normalized_weights": {
+          "BTC-USD": 0.5,
+          "ETH-USD": 0.5
+        },
+        "reasons": [
+          "Largest holding is 50% (over 30%)",
+          "Behaves like only 2.0 assets",
+          "Volatility is 45% a year (over 30%)",
+          "Worst past fall was -60% (deeper than -30%)",
+          "100% sits in one sector"
+        ],
+        "concentration": {
+          "top_asset": "BTC-USD",
+          "top_weight": 0.5,
+          "top3_weight": 1.0,
+          "hhi": 0.5,
+          "effective_assets": 2.0
+        },
+        "volatility": 0.4495,
+        "max_drawdown": -0.6001,
+        "sector_exposure": {
+          "Crypto": 1.0
+        },
+        "correlated_pairs": [
+          [
+            "BTC-USD",
+            "ETH-USD",
+            0.85
+          ]
+        ],
+        "stress": {
+          "Big Tech falls 20%": 0.0,
+          "Chip selloff (semis fall 25%)": 0.0,
+          "NVDA falls 15%": 0.0,
+          "Crypto crash 40%": -0.4,
+          "Broad selloff": -0.3
+        },
+        "worst_historical_periods": {
+          "worst_day": -0.1457,
+          "worst_month": -0.399
+        },
+        "disclaimer": "Analytics only, not investment advice."
+      }
+    }
+  ]
+}
